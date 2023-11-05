@@ -1,8 +1,8 @@
 package com.example.homework
 
-//task1
-fun getSum(a : Int, b : Int) = a + b
-fun getSumMore(vararg a : Int) = if(a.size >= 2) a.sum() else throw IllegalArgumentException("Неверное количество аргументов")
+ //task1
+ fun getSum(a : Int, b : Int) = a + b
+ fun getSumMore(vararg a : Int) = if(a.size >= 2) a.sum() else throw IllegalArgumentException("Неверное количество аргументов")
 
 
 //Task2
