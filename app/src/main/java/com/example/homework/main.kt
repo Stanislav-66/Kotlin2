@@ -12,22 +12,22 @@ fun task2(char : Char = ' ', vararg str : String) : String
 }
 
 //task4
-fun task4(f:()->Unit) : Long
-{
-    val startTime = System.currentTimeMillis()
-    f()
-    val endTime = System.currentTimeMillis()
-    return endTime - startTime
-}
+ fun task4(f:()->Unit) : Long
+ {
+     val startTime = System.currentTimeMillis()
+     f()
+     val endTime = System.currentTimeMillis()
+     return endTime - startTime
+ }
 
 
-fun testFunction() {
-    var n = 1000000000
-    while (n != 0)
-    {
-        n--
-    }
-}
+ fun testFunction() {
+     var n = 1000000000
+     while (n != 0)
+     {
+         n--
+     }
+ }
 
 fun main() {
     println("Время окончания ${task4(::testFunction)} милиссекунд")
