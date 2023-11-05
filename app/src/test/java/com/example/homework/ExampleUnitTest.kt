@@ -12,7 +12,8 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals("Hello World", Model().task2( str = arrayOf("Hello", "World")))
-        assertEquals("Hello,World", Model().task2(',', "Hello", "World"))
+        //task3
+         assertEquals("Hello World", Model().task2( str = arrayOf("Hello", "World")))
+         assertEquals("Hello,World", Model().task2(',', "Hello", "World"))
     }
 }
